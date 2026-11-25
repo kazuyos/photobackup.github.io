@@ -1,13 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy / プライバシーポリシー</title>
+  <title>Privacy Policy - Photo Backup - NAS Backup</title>
+
+  <meta name="description" content="Privacy Policy for Photo Backup - NAS Backup. プライバシーポリシー">
 
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, "Noto Sans JP", sans-serif;
       line-height: 1.8;
       max-width: 900px;
       margin: auto;
@@ -32,6 +35,8 @@
     h2 {
       margin-top: 35px;
       color: #444;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
     }
 
     p, li {
@@ -39,7 +44,7 @@
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 24px;
     }
 
     .footer {
@@ -48,12 +53,6 @@
       color: #777;
       border-top: 1px solid #ddd;
       padding-top: 20px;
-    }
-
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
     }
 
     @media (max-width: 600px) {
@@ -75,90 +74,309 @@
   <h1>Privacy Policy / プライバシーポリシー</h1>
 
   <p>
-    This Privacy Policy explains how this application collects, uses,
-    and protects user information.
+    This Privacy Policy describes how Photo Backup - NAS Backup
+    ("the App") handles user information, photos, videos, and
+    other data when using the application.
   </p>
 
   <p>
-    本プライバシーポリシーは、本アプリにおけるユーザー情報の
-    取得、利用、および管理方法について説明するものです。
+    本プライバシーポリシーは、Photo Backup - NAS Backup
+    （以下「本アプリ」）におけるユーザー情報、写真、動画、
+    およびその他のデータの取り扱いについて説明するものです。
   </p>
 
-  <h2>1. Information We Collect / 取得する情報</h2>
+  <h2>1. Information and Permissions / 情報および権限の取得</h2>
 
-  <p>This app may collect or access the following information:</p>
+  <p>
+    The App may access the following information and device resources
+    to provide its backup functionality:
+  </p>
+
+  <p>
+    本アプリは、バックアップ機能を提供するため、以下の情報や
+    端末のリソースにアクセスする場合があります。
+  </p>
 
   <ul>
-    <li>Camera access / カメラ</li>
-    <li>Photos and media files / 写真・動画ファイル</li>
-    <li>Internet connection information / インターネット通信</li>
-    <li>App usage information / アプリ利用情報</li>
+    <li>
+      Photos and videos:
+      Access to photos and videos stored on the device for backup purposes.
+      <br>
+      写真・動画：端末内の写真や動画をバックアップするためにアクセスします。
+    </li>
+
+    <li>
+      Network access:
+      Used to connect to user-configured NAS devices, PCs, or other
+      storage devices.
+      <br>
+      ネットワーク：ユーザーが設定したNAS、PC、その他のストレージ機器への接続に使用します。
+    </li>
+
+    <li>
+      Backup settings:
+      Information such as destination server addresses, backup schedules,
+      and connection settings.
+      <br>
+      バックアップ設定：接続先サーバーのアドレス、バックアップスケジュール、
+      接続設定などを管理します。
+    </li>
+
+    <li>
+      Authentication information:
+      Usernames and passwords entered by the user to connect to NAS
+      or PC storage devices.
+      <br>
+      認証情報：NASやPCへの接続に必要なユーザー名やパスワードを取り扱います。
+    </li>
   </ul>
 
   <h2>2. Purpose of Use / 利用目的</h2>
 
-  <p>The collected information is used for:</p>
-
-  <ul>
-    <li>Providing app features / アプリ機能の提供</li>
-    <li>Improving app performance / 品質改善</li>
-    <li>Error analysis and debugging / 不具合解析</li>
-    <li>User support / サポート対応</li>
-  </ul>
-
-  <h2>3. Third-Party Services / 外部サービス</h2>
+  <p>
+    The information accessed by the App is used only for the following purposes:
+  </p>
 
   <p>
-    This app may use third-party services such as:
+    本アプリがアクセスする情報は、以下の目的にのみ使用します。
   </p>
 
   <ul>
-    <li>Google Play Services</li>
-    <li>Firebase Analytics</li>
-    <li>Firebase Crashlytics</li>
-    <li>AdMob (if ads are used)</li>
+    <li>Backing up photos and videos to NAS or PC storage devices.</li>
+    <li>Managing backup schedules and automatic backup operations.</li>
+    <li>Connecting to user-configured storage devices.</li>
+    <li>Displaying backup status and error information.</li>
+    <li>Maintaining and improving the functionality of the App.</li>
+  </ul>
+
+  <ul>
+    <li>写真・動画をNASやPCなどのストレージ機器にバックアップするため。</li>
+    <li>バックアップスケジュールおよび自動バックアップを管理するため。</li>
+    <li>ユーザーが設定したストレージ機器へ接続するため。</li>
+    <li>バックアップ状況やエラー情報を表示するため。</li>
+    <li>本アプリの機能を維持するため。</li>
+  </ul>
+
+  <h2>3. Photo and Video Data / 写真・動画データの取り扱い</h2>
+
+  <p>
+    Photos and videos accessed by the App are used solely for
+    the backup operations requested or configured by the user.
+  </p>
+
+  <p>
+    The App does not upload photos or videos to the developer's
+    servers or any developer-operated cloud storage.
+    Files are transferred directly to the storage destination
+    configured by the user, such as a NAS or PC.
+  </p>
+
+  <p>
+    本アプリがアクセスする写真・動画は、ユーザーが指定または
+    設定したバックアップ処理のためにのみ使用します。
+  </p>
+
+  <p>
+    写真・動画を開発者のサーバーや開発者が運営するクラウドストレージに
+    アップロードすることはありません。
+    ファイルはユーザーが設定したNASやPCなどの保存先に直接転送されます。
+  </p>
+
+  <h2>4. Network Communication / ネットワーク通信</h2>
+
+  <p>
+    The App uses network communication protocols such as SMB or FTP
+    to transfer files to storage devices configured by the user.
+  </p>
+
+  <p>
+    Network communication is performed between the user's device
+    and the configured storage destination.
+  </p>
+
+  <p>
+    The security of the connection depends on the protocol and
+    network environment selected by the user.
+    Users should use a secure network and appropriately configured
+    storage devices.
+  </p>
+
+  <p>
+    本アプリは、ユーザーが設定したストレージ機器にファイルを転送するため、
+    SMBやFTPなどのネットワーク通信を使用します。
+  </p>
+
+  <p>
+    通信はユーザーの端末と設定された保存先との間で行われます。
+  </p>
+
+  <p>
+    通信の安全性は、ユーザーが選択した通信方式やネットワーク環境に依存します。
+    安全なネットワーク環境および適切に設定されたストレージ機器を
+    使用することを推奨します。
+  </p>
+
+  <h2>5. Storage of Information / 情報の保存</h2>
+
+  <p>
+    Backup settings and connection information may be stored
+    locally on the user's device to provide application functionality.
+  </p>
+
+  <p>
+    Authentication information is used to connect to the storage
+    devices configured by the user and is not intentionally
+    transmitted to the developer.
+  </p>
+
+  <p>
+    本アプリの機能を提供するため、バックアップ設定や接続情報を
+    ユーザーの端末内に保存する場合があります。
+  </p>
+
+  <p>
+    認証情報はユーザーが設定したストレージ機器への接続に使用し、
+    開発者に送信することはありません。
+  </p>
+
+  <h2>6. Third-Party Services / 外部サービス</h2>
+
+  <p>
+    The App does not use third-party advertising services
+    or analytics services to collect personal information.
+  </p>
+
+  <p>
+    本アプリは、個人情報を収集する目的で第三者の広告サービスや
+    アクセス解析サービスを使用しません。
+  </p>
+
+  <h2>7. Data Sharing / 第三者への情報提供</h2>
+
+  <p>
+    The developer does not sell, rent, or share personal information,
+    photos, videos, or backup credentials with third parties.
+  </p>
+
+  <p>
+    Exceptions may apply when disclosure is required by applicable laws
+    or legal authorities.
+  </p>
+
+  <p>
+    開発者は、ユーザーの個人情報、写真、動画、バックアップ用の認証情報を
+    第三者に販売、貸与、提供することはありません。
+  </p>
+
+  <p>
+    ただし、法令に基づく開示要求があった場合はこの限りではありません。
+  </p>
+
+  <h2>8. Data Security / 情報の安全管理</h2>
+
+  <p>
+    The developer takes reasonable measures to protect information
+    handled by the App against unauthorized access, loss, or leakage.
+  </p>
+
+  <p>
+    However, no method of electronic storage or network transmission
+    can guarantee absolute security.
+  </p>
+
+  <p>
+    開発者は、本アプリで取り扱う情報について、不正アクセス、
+    紛失、漏えいなどを防止するため、合理的な安全対策を講じます。
+  </p>
+
+  <p>
+    ただし、電子的な保存やネットワーク通信において、
+    完全な安全性を保証するものではありません。
+  </p>
+
+  <h2>9. User Responsibility / ユーザーの責任</h2>
+
+  <p>
+    Users are responsible for:
+  </p>
+
+  <ul>
+    <li>Configuring the correct NAS or PC connection settings.</li>
+    <li>Managing access permissions and passwords for storage devices.</li>
+    <li>Maintaining the security of their network environment.</li>
+    <li>Managing and deleting backed-up files on their storage devices.</li>
   </ul>
 
   <p>
-    These services may collect information in accordance with their own
-    privacy policies.
+    ユーザーは以下の事項について責任を負うものとします。
   </p>
 
-  <h2>4. Data Sharing / 第三者提供</h2>
+  <ul>
+    <li>NASやPCの接続設定を適切に行うこと。</li>
+    <li>ストレージ機器のアクセス権限やパスワードを管理すること。</li>
+    <li>ネットワーク環境の安全性を維持すること。</li>
+    <li>バックアップ先に保存されたファイルを管理・削除すること。</li>
+  </ul>
+
+  <h2>10. Data Deletion / データの削除</h2>
 
   <p>
-    We do not sell or share personal information with third parties
-    except as required by law.
+    Users can delete backup files directly from their configured
+    NAS or PC storage devices.
   </p>
 
   <p>
-    法令に基づく場合を除き、ユーザーの個人情報を第三者へ販売・提供することはありません。
+    Uninstalling the App may remove locally stored application settings.
+    However, files already backed up to NAS or PC storage devices
+    will not be automatically deleted.
   </p>
 
-  <h2>5. Data Security / 情報の管理</h2>
-
   <p>
-    We take reasonable measures to protect user information from
-    unauthorized access, loss, or leakage.
+    バックアップ済みのファイルは、ユーザー自身が設定したNASやPCから
+    削除することができます。
   </p>
 
-  <h2>6. Children's Privacy / 子どものプライバシー</h2>
-
   <p>
-    This app is not intended for children under 13 unless explicitly stated.
+    本アプリをアンインストールすると、端末内に保存された
+    アプリの設定情報などが削除される場合があります。
+    ただし、NASやPCにバックアップ済みのファイルは
+    自動的には削除されません。
   </p>
 
-  <h2>7. Changes to This Policy / ポリシーの変更</h2>
+  <h2>11. Children's Privacy / 子どものプライバシー</h2>
 
   <p>
-    This Privacy Policy may be updated from time to time.
+    The App is not specifically designed to collect personal
+    information from children.
   </p>
 
-  <h2>8. Contact / お問い合わせ</h2>
+  <p>
+    本アプリは、子どもの個人情報を収集することを目的として
+    設計されたものではありません。
+  </p>
+
+  <h2>12. Changes to This Policy / プライバシーポリシーの変更</h2>
 
   <p>
-    If you have any questions regarding this Privacy Policy,
-    please contact:
+    The developer may update this Privacy Policy when necessary.
+    Any changes will be published on this page.
+  </p>
+
+  <p>
+    開発者は、必要に応じて本プライバシーポリシーを変更することがあります。
+    変更後の内容は本ページに掲載します。
+  </p>
+
+  <h2>13. Contact / お問い合わせ</h2>
+
+  <p>
+    If you have any questions regarding this Privacy Policy
+    or the handling of information by the App, please contact us:
+  </p>
+
+  <p>
+    本プライバシーポリシーまたは本アプリにおける情報の取り扱いについて
+    ご質問がある場合は、以下までお問い合わせください。
   </p>
 
   <p>
@@ -167,7 +385,15 @@
   </p>
 
   <div class="footer">
-    Last Updated: May 9, 2026
+    <p>
+      App Name: Photo Backup - NAS Backup
+    </p>
+    <p>
+      Last Updated: November 25, 2026
+    </p>
+    <p>
+      © 2026 Photo Backup - NAS Backup
+    </p>
   </div>
 
 </div>
